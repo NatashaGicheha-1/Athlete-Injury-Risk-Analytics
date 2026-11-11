@@ -4,19 +4,17 @@
 ```text
 Athlete-Injury-Risk-Analytics/
 
-├── Data/
+├── Data/ ✅
 │   ├── athletes.csv
 │   └── weekly_monitoring.csv
 │
 ├── Analysis.sql
 │
-├── Analysis.cpp
+├── Analysis.cpp ✅
 │
 ├── Results/
-│   ├── descriptive_statistics.txt
-│   ├── correlation_results.txt
-│   ├── athlete_risk_scores.csv
-│   └── key_findings.txt
+│   ├── sql_analysis_results.txt
+│   ├── cpp_analysis_results.txt ✅
 │
 ├── Visualizations/
 ├── Presentation.pptx
@@ -24,7 +22,7 @@ Athlete-Injury-Risk-Analytics/
 └── README.md
 ```
 
-## C++
+## C++ ✅
 | Module | Purpose | Output |
 |----------|----------|----------|
 | **Module 1: Data Loading** | Load athlete and monitoring datasets. Validate and store data for analysis. | Data structures populated with athlete and monitoring records. |
@@ -36,4 +34,12 @@ Athlete-Injury-Risk-Analytics/
 | **Module 7: Results Export** | Export descriptive statistics, correlation results, athlete risk scores, and key findings. | `descriptive_statistics.txt`, `correlation_results.txt`, `athlete_risk_scores.csv`, `key_findings.txt` |
 
 - Initially used GDB Online Compiler but not suitable for using Multiple CSV files as data source and generating output files
-- Switching to Codespaces 
+- Switching to Codespaces; success
+
+## Visualisations
+PowerBI
+
+## Research.docs
+- Research and Write 2000 words on the topic using relevant sources
+
+## Add a voiceover and a video
