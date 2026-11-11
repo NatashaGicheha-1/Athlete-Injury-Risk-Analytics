@@ -42,7 +42,8 @@ vector<MonitoringRecord> monitoringRecords;
 // MODULE 1: DATA LOADING
 // =====================================================
 // Purpose:
-// Load athlete and monitoring datasets, validate records, and store data for subsequent statistical analysis
+// Load athlete and monitoring datasets, validate records, 
+// and store data for subsequent statistical analysis
 void loadAthletes()
 {
     ifstream file("Data/athletes.csv");
@@ -138,7 +139,8 @@ void loadMonitoringData()
 // MODULE 2: DESCRIPTIVE STATISTICS
 // =====================================================
 // Purpose:
-// Summarise athlete monitoring data using measures of central tendency and variability.
+// Summarise athlete monitoring data using measures of central
+// tendency and variability.
 double calculateMean(const vector<double>& values)
 {
     double sum = accumulate(values.begin(), values.end(), 0.0);
@@ -299,7 +301,8 @@ void generateDescriptiveStatistics()
 // MODULE 3: FEATURE ENGINEERING
 // =====================================================
 // Purpose:
-// Create new analytical variables from the original dataset to improve injury risk assessment.
+// Create new analytical variables from the original dataset
+//  to improve injury risk assessment.
 double calculateTrainingLoad(double trainingHours, int rpe)
 {
     return trainingHours * rpe;
@@ -384,7 +387,8 @@ void featureEngineering()
 // MODULE 4: PEARSON CORRELATION ANALYSIS
 // =====================================================
 // Purpose:
-// Measure the strength and direction of the relationship between injury occurrence and key athlete performance variables.
+// Measure the strength and direction of the relationship between
+//  injury occurrence and key athlete performance variables.
 double calculateCorrelation(
     const vector<double>& x,
     const vector<double>& y)
@@ -537,7 +541,8 @@ void athleteRiskScoring()
 // MODULE 6: HIGH-RISK ATHLETE IDENTIFICATION
 // =====================================================
 // Purpose:
-// Identify athletes who may require additional monitoring based on workload, fatigue, recovery, and injury history.
+// Identify athletes who may require additional monitoring based on workload,
+//  fatigue, recovery, and injury history.
 void identifyHighRiskAthletes()
 {
     ofstream output(
@@ -575,7 +580,7 @@ void identifyHighRiskAthletes()
 }
 
 // =====================================================
-// MODULE 7: RESULTS EXPORT
+// MODULE 7: KEY FINDINGS
 // =====================================================
 // Purpose:
 // Summarise the major findings from the athlete injury risk analytics study.
@@ -613,7 +618,7 @@ void generateKeyFindings()
 }
 
 // =====================================================
-// MAIN PROGRAM
+// C++ MAIN PROGRAM
 // =====================================================
 
 int main()
