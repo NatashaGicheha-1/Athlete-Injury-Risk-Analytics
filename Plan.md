@@ -34,3 +34,6 @@ Athlete-Injury-Risk-Analytics/
 | **Module 5: Athlete Risk Scoring** | Calculate injury risk scores and classify athletes into Low, Medium, and High Risk categories. | `athlete_risk_scores.csv` |
 | **Module 6: High-Risk Athlete Identification** | Identify athletes requiring the most monitoring based on workload, fatigue, sleep, and injury history. | Ranked list of high-risk athletes. |
 | **Module 7: Results Export** | Export descriptive statistics, correlation results, athlete risk scores, and key findings. | `descriptive_statistics.txt`, `correlation_results.txt`, `athlete_risk_scores.csv`, `key_findings.txt` |
+
+- Initially used GDB Online Compiler but not suitable for using Multiple CSV files as data source and generating output files
+- Switching to Codespaces 
