@@ -1,0 +1,86 @@
+ATHLETE INJURY RISK ANALYTICS RESULTS
+=====================================
+
+DESCRIPTIVE STATISTICS
+----------------------
+
+TRAINING LOAD
+Mean: 71.52
+Median: 65.00
+Minimum: 12.00
+Maximum: 180.00
+Variance: 1396.59
+Standard Deviation: 37.37
+
+SLEEP HOURS
+Mean: 6.97
+Median: 7.00
+Minimum: 4.00
+Maximum: 10.00
+Variance: 3.04
+Standard Deviation: 1.74
+
+FATIGUE SCORE
+Mean: 5.22
+Median: 5.00
+Minimum: 1.00
+Maximum: 10.00
+Variance: 7.67
+Standard Deviation: 2.77
+
+RESTING HEART RATE
+Mean: 60.18
+Median: 60.00
+Minimum: 45.00
+Maximum: 75.00
+Variance: 80.85
+Standard Deviation: 8.99
+
+
+FEATURE ENGINEERING
+-------------------
+
+Average Training Load: 71.52
+Average Sleep Deficit: 1.03
+Average Recovery Index: 0.72
+
+
+PEARSON'S CORRELATION ANALYSIS
+--------------------
+
+Training Load ↔ Injury: 0.2686
+Sleep Duration ↔ Injury: -0.1795
+Fatigue Score ↔ Injury: 0.3246
+
+
+ATHLETE RISK SCORES
+-------------------
+
+Risk Score Components
+- Training Load (40%)
+- Fatigue Score (30%)
+- Sleep Deficit (20%)
+- Injury History (10%)
+
+Risk Categories
+Low Risk    : 0 - 39
+Medium Risk : 40 - 69
+High Risk   : 70 - 100
+
+
+HIGH-RISK ATHLETE IDENTIFICATION
+--------------------------------
+
+Ranking Criteria
+----------------
+1. Training Load
+2. Fatigue Score
+3. Sleep Deficit
+4. Recovery Index
+5. Injury History
+
+Top 10 Highest-Risk Athletes
+----------------------------
+Athlete rankings will be generated from calculated risk scores.
+
+Athletes identified in this section should be prioritised for monitoring and injury prevention strategies.
